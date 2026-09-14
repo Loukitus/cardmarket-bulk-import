@@ -27,10 +27,6 @@ export default defineConfig(
     },
   },
   {
-    files: ['docs/test/pokemon/*.cjs'],
-    languageOptions: { parserOptions: { projectService: false } },
-  },
-  {
     files: ['**/*.{ts,tsx}'],
     extends: [
       tseslint.configs.stylisticTypeChecked,
